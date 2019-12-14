@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		670ADFD3E57A5A5B6BA92437 /* Pods_PortTrucker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EBC5211EEFF042316215AC4 /* Pods_PortTrucker.framework */; };
+		E298787B22F86274004665B7 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E298787A22F86274004665B7 /* BaseVC.swift */; };
+		E298787D22F86BA3004665B7 /* StartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E298787C22F86BA3004665B7 /* StartVC.swift */; };
+		E298787F22F879D1004665B7 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E298787E22F879D1004665B7 /* LoginVC.swift */; };
+		E298788222F88687004665B7 /* Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = E298788122F88687004665B7 /* Checkbox.swift */; };
+		E298788422F8B5E4004665B7 /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E298788322F8B5E4004665B7 /* SignupVC.swift */; };
+		E2CCF80122F828AC00DED620 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CCF80022F828AC00DED620 /* AppDelegate.swift */; };
+		E2CCF80322F828AC00DED620 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CCF80222F828AC00DED620 /* ViewController.swift */; };
+		E2CCF80622F828AC00DED620 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2CCF80422F828AC00DED620 /* Main.storyboard */; };
+		E2CCF80822F828AE00DED620 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2CCF80722F828AE00DED620 /* Assets.xcassets */; };
+		E2CCF80B22F828AE00DED620 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2CCF80922F828AE00DED620 /* LaunchScreen.storyboard */; };
+		E2F95E2122F833E3000CEDED /* big_noodle_titling.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2F95E1F22F833E2000CEDED /* big_noodle_titling.ttf */; };
+		E2F95E2222F833E3000CEDED /* robotomono_bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2F95E2022F833E3000CEDED /* robotomono_bold.ttf */; };
+		E2F95E2422F835D7000CEDED /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F95E2322F835D7000CEDED /* SplashVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E3AE1EB25D291332F8247FD /* Pods-PortTrucker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PortTrucker.release.xcconfig"; path = "Target Support Files/Pods-PortTrucker/Pods-PortTrucker.release.xcconfig"; sourceTree = "<group>"; };
+		0EBC5211EEFF042316215AC4 /* Pods_PortTrucker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PortTrucker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48EB4E780DF1EF4CE4599AD5 /* Pods-PortTrucker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PortTrucker.debug.xcconfig"; path = "Target Support Files/Pods-PortTrucker/Pods-PortTrucker.debug.xcconfig"; sourceTree = "<group>"; };
+		E298787A22F86274004665B7 /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		E298787C22F86BA3004665B7 /* StartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartVC.swift; sourceTree = "<group>"; };
+		E298787E22F879D1004665B7 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		E298788122F88687004665B7 /* Checkbox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Checkbox.swift; path = "../../../SimpleCheckbox-master/checkbox/Checkbox.swift"; sourceTree = "<group>"; };
+		E298788322F8B5E4004665B7 /* SignupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupVC.swift; sourceTree = "<group>"; };
+		E2CCF7FD22F828AC00DED620 /* PortTrucker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PortTrucker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2CCF80022F828AC00DED620 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E2CCF80222F828AC00DED620 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E2CCF80522F828AC00DED620 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E2CCF80722F828AE00DED620 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2CCF80A22F828AE00DED620 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E2CCF80C22F828AE00DED620 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2F95E1F22F833E2000CEDED /* big_noodle_titling.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = big_noodle_titling.ttf; path = ../../../../font/big_noodle_titling.ttf; sourceTree = "<group>"; };
+		E2F95E2022F833E3000CEDED /* robotomono_bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = robotomono_bold.ttf; path = ../../../../font/robotomono_bold.ttf; sourceTree = "<group>"; };
+		E2F95E2322F835D7000CEDED /* SplashVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2CCF7FA22F828AC00DED620 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				670ADFD3E57A5A5B6BA92437 /* Pods_PortTrucker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C37B5B47FFE5FFFFA34C28A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0EBC5211EEFF042316215AC4 /* Pods_PortTrucker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5F552452E219E437AB84DA7E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				48EB4E780DF1EF4CE4599AD5 /* Pods-PortTrucker.debug.xcconfig */,
+				0E3AE1EB25D291332F8247FD /* Pods-PortTrucker.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E298788022F8863B004665B7 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				E298788122F88687004665B7 /* Checkbox.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		E2CCF7F422F828AC00DED620 = {
+			isa = PBXGroup;
+			children = (
+				E2CCF7FF22F828AC00DED620 /* PortTrucker */,
+				E2CCF7FE22F828AC00DED620 /* Products */,
+				5F552452E219E437AB84DA7E /* Pods */,
+				5C37B5B47FFE5FFFFA34C28A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E2CCF7FE22F828AC00DED620 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2CCF7FD22F828AC00DED620 /* PortTrucker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2CCF7FF22F828AC00DED620 /* PortTrucker */ = {
+			isa = PBXGroup;
+			children = (
+				E2F95E2522F835F3000CEDED /* Base */,
+				E2F95E1D22F82F40000CEDED /* Cell */,
+				E298788022F8863B004665B7 /* CustomView */,
+				E2F95E1B22F82EF3000CEDED /* Controller */,
+				E2F95E1A22F82ECB000CEDED /* Model */,
+				E2F95E1C22F82F06000CEDED /* Resources */,
+				E2CCF80022F828AC00DED620 /* AppDelegate.swift */,
+				E2CCF80222F828AC00DED620 /* ViewController.swift */,
+				E2CCF80422F828AC00DED620 /* Main.storyboard */,
+				E2CCF80722F828AE00DED620 /* Assets.xcassets */,
+				E2CCF80922F828AE00DED620 /* LaunchScreen.storyboard */,
+				E2CCF80C22F828AE00DED620 /* Info.plist */,
+			);
+			path = PortTrucker;
+			sourceTree = "<group>";
+		};
+		E2F95E1A22F82ECB000CEDED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E2F95E1B22F82EF3000CEDED /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E2F95E2322F835D7000CEDED /* SplashVC.swift */,
+				E298787C22F86BA3004665B7 /* StartVC.swift */,
+				E298787E22F879D1004665B7 /* LoginVC.swift */,
+				E298788322F8B5E4004665B7 /* SignupVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E2F95E1C22F82F06000CEDED /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E2F95E1E22F82F52000CEDED /* Font */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E2F95E1D22F82F40000CEDED /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		E2F95E1E22F82F52000CEDED /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				E2F95E1F22F833E2000CEDED /* big_noodle_titling.ttf */,
+				E2F95E2022F833E3000CEDED /* robotomono_bold.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		E2F95E2522F835F3000CEDED /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				E298787A22F86274004665B7 /* BaseVC.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2CCF7FC22F828AC00DED620 /* PortTrucker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2CCF80F22F828AE00DED620 /* Build configuration list for PBXNativeTarget "PortTrucker" */;
+			buildPhases = (
+				1988F62887DB1926E9187F83 /* [CP] Check Pods Manifest.lock */,
+				E2CCF7F922F828AC00DED620 /* Sources */,
+				E2CCF7FA22F828AC00DED620 /* Frameworks */,
+				E2CCF7FB22F828AC00DED620 /* Resources */,
+				53EBD4B2D1F1B708E2628AB1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PortTrucker;
+			productName = PortTrucker;
+			productReference = E2CCF7FD22F828AC00DED620 /* PortTrucker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2CCF7F522F828AC00DED620 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = LiMing;
+				TargetAttributes = {
+					E2CCF7FC22F828AC00DED620 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = E2CCF7F822F828AC00DED620 /* Build configuration list for PBXProject "PortTrucker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2CCF7F422F828AC00DED620;
+			productRefGroup = E2CCF7FE22F828AC00DED620 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2CCF7FC22F828AC00DED620 /* PortTrucker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2CCF7FB22F828AC00DED620 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2CCF80B22F828AE00DED620 /* LaunchScreen.storyboard in Resources */,
+				E2CCF80822F828AE00DED620 /* Assets.xcassets in Resources */,
+				E2F95E2122F833E3000CEDED /* big_noodle_titling.ttf in Resources */,
+				E2CCF80622F828AC00DED620 /* Main.storyboard in Resources */,
+				E2F95E2222F833E3000CEDED /* robotomono_bold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1988F62887DB1926E9187F83 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PortTrucker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53EBD4B2D1F1B708E2628AB1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PortTrucker/Pods-PortTrucker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PortTrucker/Pods-PortTrucker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PortTrucker/Pods-PortTrucker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2CCF7F922F828AC00DED620 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E298788422F8B5E4004665B7 /* SignupVC.swift in Sources */,
+				E298787D22F86BA3004665B7 /* StartVC.swift in Sources */,
+				E2CCF80322F828AC00DED620 /* ViewController.swift in Sources */,
+				E298787F22F879D1004665B7 /* LoginVC.swift in Sources */,
+				E2F95E2422F835D7000CEDED /* SplashVC.swift in Sources */,
+				E298788222F88687004665B7 /* Checkbox.swift in Sources */,
+				E2CCF80122F828AC00DED620 /* AppDelegate.swift in Sources */,
+				E298787B22F86274004665B7 /* BaseVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E2CCF80422F828AC00DED620 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2CCF80522F828AC00DED620 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E2CCF80922F828AE00DED620 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2CCF80A22F828AE00DED620 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2CCF80D22F828AE00DED620 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E2CCF80E22F828AE00DED620 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2CCF81022F828AE00DED620 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48EB4E780DF1EF4CE4599AD5 /* Pods-PortTrucker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CM8M696KT2;
+				INFOPLIST_FILE = PortTrucker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sts.PortTrucker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E2CCF81122F828AE00DED620 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E3AE1EB25D291332F8247FD /* Pods-PortTrucker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CM8M696KT2;
+				INFOPLIST_FILE = PortTrucker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sts.PortTrucker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2CCF7F822F828AC00DED620 /* Build configuration list for PBXProject "PortTrucker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2CCF80D22F828AE00DED620 /* Debug */,
+				E2CCF80E22F828AE00DED620 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2CCF80F22F828AE00DED620 /* Build configuration list for PBXNativeTarget "PortTrucker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2CCF81022F828AE00DED620 /* Debug */,
+				E2CCF81122F828AE00DED620 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2CCF7F522F828AC00DED620 /* Project object */;
+}

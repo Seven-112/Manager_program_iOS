@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-PortTrucker/Pods-PortTrucker-frameworks.sh
+${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework
+${BUILT_PRODUCTS_DIR}/SwiftyUserDefaults/SwiftyUserDefaults.framework
+${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework
